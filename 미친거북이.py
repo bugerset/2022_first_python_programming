@@ -14,3 +14,4 @@ while True:
     t.forward(20)
     t.right(a_list[k])
     
+
