@@ -1,4 +1,11 @@
-a = "Hello"
-b = "Everybody"
-print([i+j for i in a for j in b])
+A,B = map(int, input().split())
+C = int(input())
 
+B = B + C
+if B > 59:
+    A = A + (B)//60
+    B = B % 60
+    if A > 23:
+        A = A % 24 
+ 
+print(A,B)
