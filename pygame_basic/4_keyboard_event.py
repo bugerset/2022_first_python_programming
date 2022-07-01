@@ -11,10 +11,10 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Bubble Game")
 
 # 배경 이미지 불러오기
-background = pygame.image.load("/Users/youngseo/Desktop/Study/Python/강의_1/pygame_basic/background.png")
+background = pygame.image.load("/Users/youngseo/Desktop/sacrifice/Python-programming/Python-programming-1/pygame_basic/background.png")
 
 # 캐릭터 불러오기
-character = pygame.image.load("/Users/youngseo/Desktop/Study/Python/강의_1/pygame_basic/스크린샷 2022-06-29 오전 7.06.46.png")
+character = pygame.image.load("/Users/youngseo/Desktop/sacrifice/Python-programming/Python-programming-1/pygame_basic/스크린샷 2022-06-29 오전 7.06.46.png")
 character_size = character.get_rect().size # 이미지의 크기를 구해옴
 character_width = character_size[0]
 character_height = character_size[1]

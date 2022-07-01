@@ -1,11 +1,2 @@
-A,B = map(int, input().split())
-C = int(input())
-
-B = B + C
-if B > 59:
-    A = A + (B)//60
-    B = B % 60
-    if A > 23:
-        A = A % 24 
- 
-print(A,B)
+for i in range(1,10):
+    print(i)
