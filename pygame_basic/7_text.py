@@ -125,5 +125,6 @@ while running:
 
 # 잠시 대기
 time.sleep(2)
+
 # 종료
 pygame.quit()
